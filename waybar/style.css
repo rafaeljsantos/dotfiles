@@ -1,0 +1,51 @@
+* {
+  font-family: "JetBrains Mono";
+  font-size: 12px;
+  border: none;
+  border-radius: 0;
+}
+
+window#waybar {
+  background: rgba(15, 17, 20, 0.85);
+  border-bottom: 1px solid #2a2f36;
+  color: #c5c8c6;
+}
+
+/* Workspaces */
+#workspaces button {
+  padding: 0 8px;
+  color: #888888;
+}
+
+#workspaces button.focused {
+  color: #c5c8c6;
+  border-bottom: 2px solid #4c566a;
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Modules */
+#clock,
+#cpu,
+#memory,
+#network,
+#pulseaudio {
+  padding: 0 10px;
+  color: #c5c8c6;
+}
+
+/* Subtle separators */
+#cpu {
+  border-left: 1px solid #2a2f36;
+}
+#memory {
+  border-left: 1px solid #2a2f36;
+}
+#network {
+  border-left: 1px solid #2a2f36;
+}
+#pulseaudio {
+  border-left: 1px solid #2a2f36;
+}
